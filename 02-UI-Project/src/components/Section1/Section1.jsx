@@ -1,11 +1,15 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const Section1 = () => {
   return (
-    <div className='bg-mauve-700'>
-      <h2>welcome</h2>
+    <div className='h-screen w-full bg-gray-800'>
+      <Navbar/>
     </div>
   )
 }
 
 export default Section1
+
+
+/* t y */
