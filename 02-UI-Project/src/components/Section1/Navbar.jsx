@@ -8,7 +8,7 @@ const Navbar = () => {
             Digital Banking Platform
         </button>
 
-    </div>
+          </div>
   )
 }
 

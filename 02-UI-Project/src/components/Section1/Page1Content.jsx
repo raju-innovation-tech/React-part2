@@ -1,9 +1,12 @@
 import React from 'react'
-
+import LeftContent from './LeftContent'
+import RightContent from './RightContent'
 const Page1Content = () => {
   return (
-    <div>
-      
+    <div className='py-10 h-[90vh] flex items-center gap-12  px-18'>
+      <LeftContent/>
+      <RightContent/>
+
     </div>
   )
 }
